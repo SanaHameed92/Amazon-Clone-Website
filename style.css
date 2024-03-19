@@ -254,12 +254,15 @@ select{
    
     height: 130px;
     width: 130px;
-
+    
     background-size: cover;
     background-repeat: no-repeat;
 }
 .box-image:hover{
+    
     cursor: pointer;
+    opacity: 0.9;
+
 }
 .image-description{
     margin-top: 5px;
@@ -464,6 +467,7 @@ select{
 }
 .video i:hover{
     cursor: pointer;
+    opacity: 0.9;
 }
 .recommended{
     padding-top: 10px;
@@ -491,6 +495,7 @@ select{
     font-weight: 700;
    
 }
+
 
 .list button{
  
@@ -522,6 +527,7 @@ select{
 
 .list-option1 img:hover{
     cursor: pointer;
+    opacity: 0.8;
 
 }
 .list{
@@ -532,6 +538,7 @@ select{
 .box-heading{
     padding: 5px;
 }
+
 .ad2{
     position: relative;
     height: 260px;
@@ -548,6 +555,9 @@ select{
     width: 80%;
     background-image: url("Images/ad2.jpg");
     background-size: contain;
+}
+.ad-image:hover{
+    opacity: 0.9;
 }
 .history{
    
@@ -599,6 +609,7 @@ select{
 .list-br:hover{
 
     cursor: pointer;
+    opacity: 0.8;
   
 }
 
